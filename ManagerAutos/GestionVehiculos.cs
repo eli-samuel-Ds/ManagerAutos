@@ -36,7 +36,7 @@ namespace ManagerAutos
         private static int Conteo = 0;
         public void MostrarVehiculos()
         {
-            Console.WriteLine("Lista de Vehiculos");
+            Console.WriteLine("Lista de Vehiculos:");
             foreach (Vehiculo vehiculo in Vehiculos)
             {
                 Console.WriteLine($"-{Conteo} {vehiculo.MostrarInformacion()} -");

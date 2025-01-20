@@ -38,6 +38,8 @@ namespace MyApp
 
             //Mostrando toda la informacion de los vehiculos
             gestionVehiculos.MostrarVehiculos();
+            Console.WriteLine();
+            gestionVehiculos.ConducirTodos();
         }
     }
 }
